@@ -1,8 +1,27 @@
         * {
-        font-family: Arial, Verdana, sans-serif;
-        color: #665544;
-        box-sizing: border-box;}
+        font-family:fantasy;
+        color:#ffde00;
+        box-sizing: border-box;
+    }
         
+        body, h1,h2,h3,h4,h5,h6 {font-family: fantasy}
+        .w3-row-padding img {margin-bottom: 12px}
+        .bgimg {
+          background-position: center;
+          background-repeat: no-repeat;
+          background-size: cover;
+          background-image: url('../assets/javitscenterMedium_90degrees.png');
+         
+          min-height: 100%;
+        }
+
+    
+        body {
+            background-color: #ed94de; 
+        }
+        
+
+
         header h1 {
         color: white; }
 
@@ -10,7 +29,7 @@
         text-align: center;}
 
         section h3 {
-            font-weight: 
+            font-weight: 600;
         }
 
         article img {
@@ -28,6 +47,9 @@
         .row-color-1 {
             background-color:antiquewhite;
         }
+
+/* contact form */
+
         #fcf-form {
             display:block;
         }
@@ -38,12 +60,12 @@
             font-size: 1rem;
             font-weight: 400;
             line-height: 1.5;
-            color: #212529;
+            color: #235c96;
             text-align: left;
-            background-color: #fff;
+            background-color: #d675c0;
             padding: 30px;
             padding-bottom: 10px;
-            border: 1px solid #ced4da;
+            border: 1px solid #ee7b46;
             border-radius: 0.25rem;
             max-width: 100%;
         }
